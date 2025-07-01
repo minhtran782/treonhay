@@ -20,9 +20,9 @@ def print_colorful_banner(banner_text):
 def print_colorful_box():
     reset = '\033[0m'
     text_lines = [
-        "SUPPORT : Mai Thăng Long",
-        "DEC BY  : Mai Thăng Long",
-        "NÓI CHUNG LÀ MAI THĂNG LONG ĐẸP TRAI:))"
+        "SUPPORT : TRAN DUC MINH",
+        "DEC BY  : TRAN DUC MINH",
+        "ANK LA TRAN DUC MINH W ALEXDZ:))"
     ]
     max_len = max(len(line) for line in text_lines) + 4
     top_bottom = "═" * max_len
